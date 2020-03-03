@@ -5,23 +5,29 @@
     <title>muti-yuu</title>
     <link rel="stylesheet" href="stylesheet_2.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="responsive.css">
   </head>
   <body>
-    <!-- ここからHTMLを書き始めてください -->
     <header>
-      <img src="wood.png" class="Lv-icon">
-      <div class="header-logo">無知の勇者の冒険の書</div>
+      <div class="heading">
+        <img src="wood.png" class="Lv-icon_L">
+        <div class="header-logo">冒険の書</div>
+        <img src="shield.jpeg" class="Lv-icon_R">
+        <div style="clear:both;"></div>
+      </div>
       <div class="menu">
         <ul>
-          <li><a href="#">ホーム</a></li>
-          <li><a href="#">自己紹介</a></li>
-          <li><a href="#">経歴</a></li>
-          <li><a href="#">ブログ</a></li>
+          <li><a href="test_2.html">ホーム</a></li>
+          <li><a href="intro.html">自己紹介</a></li>
+          <li><a href="career.html">経歴</a></li>
+          <li><a href="sent.php">問合せ</a></li>
         </ul>
       </div>
     </header>
 
     <div style="clear:both;"></div>
+
     <div class="container">
       <div class="top-wrapper">
         <div class="top-left">
@@ -43,9 +49,9 @@
         <h1>コンテンツ一覧</h1>
         <div class="contents">
           <div class="contents-icon">
-            <img src="yuusya.jpg">
+            <img src="yuusya.jpg" class="expl">
             <h3>コンテンツ1</h3>
-            <p>コンテンツの説明コンテンツの説明コンテンツの説明</p>
+            <p class="expl-text">コンテンツの説明コンテンツの説明コンテンツの説明</p>
           </div>
         </div>
         <div class="contents">
@@ -69,18 +75,17 @@
             <p>コンテンツの説明コンテンツの説明コンテンツの説明</p>
           </div>
         </div>
+        <div style="clear:both;"></div>
       </div>
-
     </div>
 
-    <div style="clear:both;"></div>
+
 
     <footer>
       <div class=cintainer>
         <div class="footer-main">
           <div class="form">
             <p>お問い合わせ</p>
-          　<p>phpにて</p>
           </div>
         </div>
       </div>
